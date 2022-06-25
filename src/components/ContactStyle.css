@@ -1,0 +1,47 @@
+.box {
+    display: flex;
+    border-radius: 15px;
+    background-color: #111827;
+    padding: 10px;
+    width: 100%;
+    min-height: 120px;
+  }
+  
+  .boximage {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  .boxcontent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 15px;
+    width: 100%;
+  }
+  
+  .boxphone {
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+  }
+  
+  .boxbody {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .boxtitle {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: -1px;
+  }
+  
+  .boxemail {
+    font-size: 16px;
+    font-weight: 500;
+  }
